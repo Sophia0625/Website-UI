@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-size: cover;
+	}
+html,body{
+	height: auto;
+	}
+a,
+a:link,
+a:visited
+{
+	color: #000;
+	text-decoration: none;
+	}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+.clear{
+	clear: both;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 0;
+	}
+#content{
+	width: 100%;
+	height: 100%;
+	}
+nav{
+	width: 100%;
+	}
+#logo{
+	display: block;
+	margin: 0.3em auto 0;
+	text-align: center;
+	height: 7em;
+	width: 7em;
+	overflow: hidden;
+	}
+#logo img
+{
+	display: block;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	}
+nav > ul{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin: 0.3em auto 0.5em;
+	padding: 0;
+	list-style: none;
+	background: none;
+	}
+nav > ul > li
+{
+	display: inline-block;
+	position: relative;
+	width: 12em;
+	height: 2em;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: none;
+	line-height: 2em;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+/*make a little strip on the bottom of the nav li
+ it appears when the mouse hover
+*/
+nav > ul > li:after
+{
+	content: "";
+	display: table;
+	position: absolute;
+	height: 0;
+	margin-top: -5px;
+	width: 100%;
+	background: #7ea2d6;
+	-webkit-transition:height 200ms ease-in;
+    -moz-transition:height 200ms ease-in;
+    -o-transition:height 200ms ease-in;
+    transition:height 200ms ease-in;
+	}
+
+nav > ul > li:hover > ul > li
+{
+	height: 2em;
+	}
+nav > ul > li:hover::after
+{
+	height: 5px;
+	}
+/* the last child of the nav is the search bar,make the strip disappear */
+nav > ul > li:last-child:hover::after{
+	height: 0;
+	}
+#search{
+	width: 9em;
+	height: 30px;
+	padding: 5px 10px 5px 25px;
+	box-sizing: border-box;
+    border: 2px solid #000;
+	border-radius: 6px;
+    font-size: 14px;
+	background: url(../img/searchicon.png) top left no-repeat;
+	-webkit-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+	}
+
+#search:focus
+{
+	width: 12em;
+	}
+.submenu{
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	}
+.submenu li
+{
+	background: #fff;
+	line-height: 2em;
+	width: 100%;
+	height: 0;
+	overflow:hidden;
+	font-weight: normal;
+    -webkit-transition:all 200ms ease-in 100ms;
+    -moz-transition:all 200ms ease-in 100ms;
+    -o-transition:all 200ms ease-in 100ms;
+    transition:all 200ms ease-in 100ms;q
+	}
+.submenu > li > a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	-webkit-transition:all 300ms ease-in;
+    -moz-transition:all 300ms ease-in;
+    -o-transition:all 300ms ease-in;
+    transition:all 300ms ease-in;
+	}
+.submenu > li:hover > a
+{
+	color: #7ea2d6;
+	}
+#main{
+	width: 100%;
+	text-align: center;
+	height: auto;
+	margin: 0 auto;
+	}
