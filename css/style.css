@@ -78,7 +78,7 @@ nav > ul > li
 /*make a little strip on the bottom of the nav li
  it appears when the mouse hover
 */
-nav > ul > li:after
+nav > ul > li::after
 {
 	content: "";
 	display: table;
@@ -86,7 +86,7 @@ nav > ul > li:after
 	height: 0;
 	margin-top: -5px;
 	width: 100%;
-	background: #7ea2d6;
+	background: #fa8071;
 	-webkit-transition:height 200ms ease-in;
     -moz-transition:height 200ms ease-in;
     -o-transition:height 200ms ease-in;
@@ -108,12 +108,12 @@ nav > ul > li:last-child:hover::after{
 #search{
 	width: 9em;
 	height: 30px;
-	padding: 5px 10px 5px 25px;
+	padding: 5px 10px 5px 27px;
 	box-sizing: border-box;
     border: 2px solid #000;
 	border-radius: 6px;
     font-size: 14px;
-	background: url(../img/searchicon.png) top left no-repeat;
+	background: url(../img/searchicon.png) center left no-repeat;
 	-webkit-transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
 	}
