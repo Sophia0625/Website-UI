@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+.sectionbox{
+	width: 80%;
+	height: 30em;
+	margin: 0 auto 2em;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	}
+.section_dis_a,
+.section_dis_b{
+	position: absolute;
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	background: #7ea2d6;
+	text-align: center;
+	}
+.section_dis_a{
+	left: 0;
+	}
+.section_dis_b{
+	right: 0;
+	background: #fa8071;
+	}
+.section_dis_a h1,
+.section_dis_b h1{
+	position: relative;
+	top: 35%;
+	font-size: 2.3em;
+	}
+.section_dis_a p,
+.section_dis_b p
+{
+	display: block;
+	position: relative;
+	top: 30%;
+	}
+.imgslider_a,
+.imgslider_b
+{
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	width: 67%;
+	height: 100%;
+	overflow: hidden;
+	}
+.imgslider_b{
+	left: 0;
+	}
+.infobox{
+	float: left;
+	width: 100%;
+	height: 5em;
+	position: absolute;
+	top: 22em;
+	background: rgba(0,0,0,.3);
+	padding: 10px 20px 15px 20px;
+	}
+.authorname{
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 2em;
+	font-size: 1.2em;
+	} 
+.workname{
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0;
+	line-height: 1.4em;
+	font-size: 1em;
+	font-weight: normal;
+	}
+.work_dis{
+	clear: both;
+	display: block;
+	margin: 0;
+	float: left;
+	line-height: 1.4em;
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: 100;
+	}
+.imgbox{
+	width: 100%;
+	height: 30em;
+	display: block;
+	position: absolute;
+	top: 0;
+	}
+
+
