@@ -92,5 +92,85 @@
 	position: absolute;
 	top: 0;
 	}
-
+	
+#prosection{
+	width: 80%;
+	text-align: center;
+	height: auto;
+	margin: 0 auto 2em;
+	color: #fff;
+	}
+#prosection h1{
+	margin: 15px 0;
+	padding: 0;
+	float: left;
+	color: #000;
+	}
+.pro_grid{
+	width: 30%;
+	position: relative;
+	height: auto;
+	margin: 0 3em 0 0;
+	padding: 0;
+	display: inline-block;
+	}
+.pro_grid:last-child{
+	margin: 0;
+	}
+.singledesigner{
+	width: 100%;
+	height: auto;
+	margin: 0 0 2em 0;
+	display: block;
+	}
+.singledesigner > img
+{
+	float: left;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 5px #999;
+	}
+.singledesigner > p{
+	display: block;
+	float: left;
+	line-height: 80px;
+	margin: 0 0 0 1em;
+	padding: 0;
+	color: #666;
+	font-weight: bold;
+	}
+.shortview{
+	display: block;
+	margin: 0.5em 0 0 0;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 5px #999;
+	}
+.shortview > img{
+	width: 100%;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	}
+.shortinfo{
+	background: none;
+	color: #999;
+	height: 4em;
+	width: 100%;
+	}
+.shortinfo > img{
+	height: 25px;
+	width: 25px;
+	display: block;
+	float: right;
+	margin-top: 0.5em;
+	padding: 0;
+	}
+.shortinfo > span{
+	float: right;
+	line-height: 25px;
+	padding: 0.5em 1em 0 0.2em;
+	}
 
