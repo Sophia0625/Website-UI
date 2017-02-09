@@ -71,7 +71,7 @@
 	font-size: 1em;
 	}
 .likebox_1 span{
-	color: #666;
+	color: #CCC;
 	display: inline-block;
 	float: right;
 	margin: 0.2em 0 0 0.5em;
@@ -116,47 +116,57 @@
 	}
 .pop_section{
 	width: 80%;
+	height: auto;
+	margin: 0 auto 2em;
+	text-align: center;
+	position: relative;
+	}
+.pop_section_1{
+	width: 80%;
 	height: 25em;
 	margin: 0 auto 2em;
 	text-align: center;
 	position: relative;
 	}
-.pop_grid_1{
-	width: 66%;
-	height: 100%;
-	margin: 0 0.5em 0 0;
-	display: inline-block;
-	vertical-align: top;
-	}
-.pop_grid_2{
-	width: 33%;
-	height: 100%;
-	margin: 0;
-	display: inline-block;
-	vertical-align: top;
-	}
-.pop_grid_3{
-	width: 23%;
-	height: 100%;
-	display: inline-block;
-	vertical-align: top;
-	}
-.pop_grid_4{
-	vertical-align: top;
-	width: 50%;
-	height: 100%;
-	display: inline-block;
-	margin: 0 0.7em;
-	}
-.pop_grid_5{
-	width: 48%;
+.pop_grid_1,
+.pop_grid_2,
+.pop_grid_3,
+.pop_grid_4,
+.pop_grid_5,
+.pop_grid_6{
 	height: 100%;
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
 	}
+.pop_grid_1{
+	width: 66%;
+	margin: 0 0.5em 0 0;
+	}
+.pop_grid_2{
+	width: 33%;
+	}
+.pop_grid_3{
+	width: 23%;
+	}
+.pop_grid_4{
+	width: 50%;
+	margin: 0 0.6em;
+	}
+.pop_grid_5{
+	width: 48%;
+	position: relative;
+	}
 .pop_grid_5:first-child{
 	margin: 0 0.7em 0 0;
+	}
+.pop_grid_6{
+	width: 32%;
+	height: auto;
+	margin: 0 1em 0 0;
+	}
+.pop_grid_6:last-child{
+	margin: 0;
 	}
 .pop_col_1{
 	width: 100%;
@@ -167,24 +177,17 @@
 .pop_col_1:first-child{
 	margin: 0 0 1em 0;
 	}
-.pop_col-1 > a,
+.pop_col_1 > a,
 .pop_grid_5 > a{
 	height: 100%;
 	width: 100%;
 	}
-.pop_col_1 > a > img{
+.pop_grid_6 > a{
 	width: 100%;
-	height: 100%;
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
-	opacity: 1;
-	-webkit-transition: opacity 0.3s;
-	-moz-transition: opacity 0.3s;
-	-o-transition: opacity 0.3s;
-	transition: opacity 0.3s;
 	}
-.pop_grid_5 > a > img{
+.pop_col_1 > a > img,
+.pop_grid_5 > a > img,
+.pop_grid_6 > a > img{
 	width: 100%;
 	height: 100%;
 	-webkit-border-radius: 8px;
@@ -195,6 +198,9 @@
 	-moz-transition: opacity 0.4s ease-in;
 	-o-transition: opacity 0.4s ease-in;
 	transition: opacity 0.4s ease-in;
+	}
+.pop_grid_6 > a > img{
+	height: auto;
 	}
 .boxstyle{
 	box-shadow:  0px 1px 3px #999;
