@@ -7,6 +7,7 @@
 	color: #fff;
 	position: relative;
 	overflow: hidden;
+	display: block;
 	}
 .section_dis_a,
 .section_dis_b{
@@ -37,6 +38,13 @@
 	position: relative;
 	top: 30%;
 	}
+.section_dis_a a,
+.section_dis_b a{
+	position: relative;
+	top: 30%;
+	color: rgba(255,255,255,.7);
+	text-decoration: underline;
+	}
 .imgslider_a,
 .imgslider_b
 {
@@ -46,6 +54,7 @@
 	width: 67%;
 	height: 100%;
 	overflow: hidden;
+	
 	}
 .imgslider_b{
 	left: 0;
@@ -58,6 +67,7 @@
 	top: 22em;
 	background: rgba(0,0,0,.3);
 	padding: 10px 20px 15px 20px;
+	color: #fff;
 	}
 .authorname{
 	float: left;
