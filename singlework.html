@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hauptstruktur</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/singlework.css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+</head>
+
+<body>
+	<div id="content"><!-- all the content of the website included in this div -->
+    	<header>
+        	<div id="logo"><!-- logo leads users to the homepage for safe explore ps:logo should be designed to a square-->
+                <a href="home.html"><img src="img/logo.jpg"></a>
+            </div>
+            <nav><!-- our global navigation includes the search bar inside -->
+            	<ul>
+                    <li><a href="#">Home</a>
+                        <ul class="submenu">
+                            <li><a href="#">Following</a></li>
+                            <li><a href="#">Followed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Explore</a>
+                        <ul class="submenu">
+                            <li><a href="#">Popular</a></li>
+                            <li><a href="#">Newest</a></li>
+                            <li><a href="#">Random</a></li>
+                            <li><a href="#">Profiles</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li><a href="#">Community</a></li>
+                    <li><input type="text" name="search" placeholder="Search.." id="search"></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="clear"></div><!-- class clear is used to clear the float,no height no conetent -->
+        <div id="main"><!-- main part of the body,include banner,article or any other section inside -->
+        	<section id="sin_sec">
+            	<section class="sin_grid_1">
+                	<section id="sin_top">
+                    	<h1>Dreamer</h1>
+                        <div id="likeandcomment">
+                            <img src="img/like_solid.png"><span>2451</span>
+                            <img src="img/comment_solid.png"><span>186</span>
+                    	</div>
+                        <div id="work_des">
+                        	<p id="collection"><span>Collection:</span> Made you look</p>
+                            <p id="detail">A personal challenge where I aim to design 
+a poster every day throughout 2017.</p>
+							
+                        </div>
+                    </section><!-- end sin_top -->
+                    <section id="main_sec">
+                    	<img src="img/054.png" id="main_pic">
+                        <div class="clear"></div>
+                        <div id="author">
+                        	<h1>Ben Schade</h1>
+                            <!--<p id="author_des">Explores interface, addicted to brand designs, loves black coffee.</p>-->
+                        </div>	
+                    </section>
+                    <p id="author_des">Explores interface, addicted to brand designs, loves black coffee.</p>
+                </section>
+                <section class="sin_grid_2">
+                	<img src="img/052.png">
+                    <img src="img/053.png">
+                </section>
+            </section><!-- end sin_sec -->
+            <section id="comment">
+            	<h1>Comments</h1>
+                <div id="combox">
+                	<textarea id="com_area"></textarea>
+                    <button id="com_btn">Comment</button>
+                </div>
+                <div class="sin_com">
+                	<div class="com_user">
+                    	<img src="img/portraet_160b.png">
+                    </div>
+                    <div class="com_content">
+                    	<p class="com_name">Fiona.D</p>
+                    	<p>This is my type of design. Cool shapes, nice flow, great colors.</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="sin_com">
+                	<div class="com_user">
+                    	<img src="img/portraet_160.png">
+                    </div>
+                    <div class="com_content">
+                    	<p class="com_name">Dalius</p>
+                    	<p>This is lovely!</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="sin_com">
+                	<div class="com_user">
+                    	<img src="img/portraet_160b.png">
+                    </div>
+                    <div class="com_content">
+                    	<p class="com_name">Moon.D</p>
+                    	<p>Amazing work!! So clean :)</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="sin_com">
+                	<div class="com_user">
+                    	<img src="img/portraet_160.png">
+                    </div>
+                    <div class="com_content">
+                    	<p class="com_name">Eric.L</p>
+                    	<p>Nice one! :) I love minimal layouts.</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <a href="#" id="seemore">See More</a>
+            </section>
+        </div><!-- end main -->
+        <footer>
+        	<section id="sociallist">
+            	<a href="#"><img src="img/facebook.png"></a>
+                <a href="#"><img src="img/google.png"></a>
+                <a href="#"><img src="img/twitter.png"></a> 
+            </section>
+            <nav id="footlist">
+            	<a href="#"><span>About Us</span><span>Soffia,Yosra,Nada</span></a>
+                <a href="#"><span>Contact</span><span>artanddesign@ad.com</span></a>
+                <a href="#"><span>Help &amp; FAQ</span><span>art&amp;design.de</span></a>
+                <a href="#"><span>Career</span><span>4912345678910</span></a>
+            </nav>
+        </footer>
+	</div><!-- end content -->
+</body>
+</html>
+
