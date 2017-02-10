@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-.new_sec{
+#home_sec{
 	width: 80%;
 	height: auto;
 	margin: 0 auto 2em;
@@ -8,11 +8,96 @@
 	position: relative;
 	overflow: hidden;
 	}
-.top_sec{
+.home_grid_1,
+.home_grid_2{
 	display: inline-block;
-	width: 25%;
-	height: 27em;
-	margin: 0 -0.1em;
+	position: relative;
+	vertical-align: top;
+	height: auto;
+
+	}
+.home_grid_1{
+	width: 30%;
+	}
+.home_grid_2{
+	width: 65%;
+	}
+.home_grid_3{
+	width: 48%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	height: auto;
+	margin: 0 1em 0 0;
+	}
+.home_grid_3:last-child{
+	margin: 0;
+	}
+#user_info{
+	width: 100%;
+	}
+#user_info h3{
+	color: #333;
+	margin: 0.5em 0 0 0;
+	padding: 0;
+	}
+.portraet{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 2em auto 0;
+	overflow: hidden;
+	border: 4px #fff solid;
+	-moz-border-radius: 54px;
+	-webkit-border-radius: 54px;
+	border-radius: 54px;
+	box-shadow:  0px 0px 5px #999;
+	}
+.portraet img{
+	width: 100px;
+	height: 100px;
+	}
+.description{
+	width: 70%;
+	font-size: 0.8em;
+	font-weight: 100;
+	margin: 0.3em auto 1em auto;
+	padding: 0;
+	text-align: justify;
+	color: #999;
+	}
+.email{
+	text-decoration: underline !important;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #999 !important;
+	}
+.followers,
+.following,
+.works{
+	font-size: 1em;
+	font-style: italic;
+	color: #666;
+	}
+.followers{
+	margin: 0.5em 0 0 0;
+	}
+.works,
+.following{
+	margin: 0.1em 0 0 0;
+	}
+.followers span,
+.works span,
+.following span{
+	font-style: normal;
+	color: #999;
+	padding-left: 0.4em;
+	}
+.showbox{
+	display: inline-block;
+	width: 100%;
+	height: 29em;
+	margin: 0 -0.1em 2em 0;
 	padding: 0;
 	}
 .chico{
@@ -65,7 +150,7 @@
 	margin: 0;
 	padding: 0;
 	}
-.description{
+.work_des{
 	font-size: 0.7em;
 	display: inline-block;
 	width: 70%;
@@ -96,49 +181,11 @@
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	}
-.chico:hover .description{
+.chico:hover .work_des{
 	top: -0.5em;
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	}
-
-.new_grid_1{
-	width: 29%;
-	display: inline-block;
-	position: relative;
-	height: 35em;
-	vertical-align: top;
-	}
-.new_grid_2{
-	width: 40%;
-	display: inline-block;
-	position: relative;
-	height: 35em;
-	margin: 0 0.5em;
-	vertical-align: top;
-	}
-.new_col_1{
-	width: 100%;
-	height: 69%;
-	position: relative;
-	vertical-align: top;
-	margin: 0 0 0.9em 0;
-	}
-.new_col_2{
-	width: 100%;
-	height: 29%;
-	position: relative;
-	margin: 0;
-	}
-.new_col_3{
-	width: 100%;
-	height: 49%;
-	position: relative;
-	margin: 0 0 0.9em 0;
-	}
-.new_col_3:last-child{
-	margin: 0;
 	}
 .likebox{
 	position: absolute;

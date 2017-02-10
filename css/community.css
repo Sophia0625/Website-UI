@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document */
+#com_sec{
+	width: 80%;
+	height: auto;
+	margin: 0 auto 2em;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	}
+.com_grid_1{
+	width: 33%;
+	display: inline-block;
+	height: auto;
+	margin: 0 1em 0 0;
+	vertical-align: top;
+	}
+.com_grid_2{
+	width: 64%;
+	display: inline-block;
+	height: auto;
+	vertical-align: top;
+	position: relative;
+	}
+#user{
+	float: right;
+	margin: 1em;
+	}
+#portraet{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 0;
+	overflow: hidden;
+	border: 5px #fff solid;
+	-moz-border-radius: 65px;
+	-webkit-border-radius: 65px;
+	border-radius: 65px;
+	box-shadow:  0px 0px 5px #999;
+	}
+#portraet > img{
+	width: 120px;
+	height: 120px;
+	}
+#user h2{
+	margin: 0.5em 0 0 0;
+	padding: 0;
+	}
+#menu{
+	clear: both;
+	float: right;
+	margin: 0 1em 0 0;
+	padding: 0;
+	font-size: 1.2em;
+	}
+#menu a{
+	display: block;
+	clear: both;
+	float: right;
+	margin: 0;
+	line-height: 2em;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+#menu a:hover{
+	padding-right: 1em;
+	}
+.message{
+	clear: both;
+	float: left;
+	width: 80%;
+	margin: 1em 2em;
+	position: relative;
+	}
+.sender{
+	float: left;
+	}
+.portrait_a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	margin: 0;
+	overflow: hidden;
+	border: 2px #fff solid;
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 32px;
+	box-shadow:  0px 0px 3px #999;
+	}
+.portrait_a > img{
+	width: 60px;
+	height: 60px;}
+.sender p{
+	margin: 0.2em 0 0 0;
+	}
+.mes_content::before{
+	content: " ";
+	float: left;
+	display: block;
+	position: absolute;
+	left: -1.6em;
+	top: 0.8em;
+	margin: 6px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px;
+	border-color:transparent #CCC transparent transparent;
+	}
+.mes_content{
+	position: relative;
+	float: left;
+	width: 80%;
+	height: 60px;
+	background: #fff;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	box-shadow:  0px 0px 5px #999;
+	margin-left: 1.3em;
+	background: #CCC;
+	}
+.mes_content.special{
+	background: #fff;
+	}
+.mes_content.special::before{
+	display: none;
+	}
+.mes_content p{
+	margin: 0;
+	padding: 0;
+	line-height: 60px;
+	color: #333;
+	}

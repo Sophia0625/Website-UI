@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+#home_sec{
+	width: 50em;
+	height: 20em;
+	margin: 6em auto 6em;
+	position: relative;
+	}
+#logobox{
+	width: 30%;
+	height: 80%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	}
+#logobox > img{
+	height: 100%;
+	width: 100%;
+	-ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+	}
+#choice{
+	width: 58%;
+	height: 100%;
+	display: inline-block;
+
+}
+#login{
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	margin-top: 25%;
+	font-size: 2em;
+	vertical-align: top;
+	border-right: 6px solid #fa8071;
+	
+	}
+#explore{
+	display: inline-block;
+	width: 65%;
+	height: auto;
+	margin-top: 25%;
+	font-size: 2em;
+	vertical-align: top;
+	color: #666;
+	}

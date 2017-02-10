@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="css/LogIn.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+</head>
+
+<body>
+	<div id="content"><!-- all the content of the website included in this div -->
+    	<header>
+        	<div id="logo"><!-- logo leads users to the homepage for safe explore ps:logo should be designed to a square-->
+                <a href="explore.html"><img src="img/logo.png"></a>
+            </div>
+            <nav><!-- our global navigation includes the search bar inside -->
+            	<ul>
+                    <li><a href="home.html">Home</a>
+                        <ul class="submenu">
+                            <li><a href="following.html">Following</a></li>
+                            <li><a href="followed.html">Followed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="explore.html">Explore</a>
+                        <ul class="submenu">
+                            <li><a href="popular.html">Popular</a></li>
+                            <li><a href="newest.html">Newest</a></li>
+                            <li><a href="profiles.html">Profiles</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="community.html">Community</a></li>
+                    <li><input type="text" name="search" placeholder="Search.." id="search"></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="clear"></div><!-- class clear is used to clear the float,no height no conetent -->
+        <div id="main"><!-- main part of the body,include banner,article or any other section inside -->
+
+          <!-- Begin content -->
+        	<div class="container">
+        	<div class="heading">
+        	<p><span>Welcome to your Login Page</span></p>
+          <dl>
+            <dt>Name</dt>
+            <dd><input type="text" name="input" placeholder="name" id="input"></dd>
+            <dt>Email</dt>
+            <dd><input type="text" name="input" placeholder="e-mail" id="input"></dd>
+            <dt>Password</dt>
+            <dd><input type="text" name="input" placeholder="password" id="input"></dd>
+          </dl>
+
+            <svg class="slant" viewBox="0 0 1 1" preserveAspectRatio="none">
+              <polygon points="0,1 1,1 1,0">
+            </svg>
+          </div>
+          <button id="dbutton">Log In</button>
+          <div class="bottom">
+            <a href="impressum.html">Terms &amp; Conditions</a>
+            <a href="#" class="sign-in-link">Sign In</a>
+          </div>
+        </div>
+        <!-- End content -->
+
+
+        </div><!-- end main -->
+        <footer>
+        	<section id="sociallist">
+            	<a href="#"><img src="img/facebook.png"></a>
+                <a href="#"><img src="img/google.png"></a>
+                <a href="#"><img src="img/twitter.png"></a>
+            </section>
+            <nav id="footlist">
+            	<a href="error.html"><span>About Us</span><span>AA,BB,CC</span></a>
+                <a href="error.html"><span>Contact</span><span>artanddesign@ad.com</span></a>
+                <a href="error.html"><span>Help &amp; FAQ</span><span>art&amp;design.de</span></a>
+                <a href="error.html"><span>Career</span><span>4912345678910</span></a>
+            </nav>
+        </footer>
+	</div><!-- end content -->
+</body>
+</html>
